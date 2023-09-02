@@ -16,13 +16,13 @@ const Bookshelf = ({ bookshelfBooks, shelfName, getBooks }) => {
                     style={{
                       width: 128,
                       height: 193,
-                      backgroundImage: `url("${book.imageLinks.smallThumbnail}")`,
+                      backgroundImage: `url("${book.imageLinks?.smallThumbnail}")`,
                     }}
                   ></div>
                   <BookShelfChanger book={book} getBooks={getBooks} />
                 </div>
-                <div className="book-title">{book.title}</div>
-                <div className="book-authors">{book.authors.join(", ")}</div>
+                <div className="book-title">{book.title || "Unknown Title"}</div>
+                <div className="book-authors">{book.authors?.join(", ") || "Unknown Author"}</div>
               </div>
             </li>
           ))}
@@ -37,6 +37,5 @@ Bookshelf.propTypes = {
   shelfName: PropTypes.string.isRequired,
   getBooks: PropTypes.func.isRequired,
 };
-
 
 export default Bookshelf;
