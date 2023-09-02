@@ -1,13 +1,19 @@
- # MyReads Project
+# MyReads Project
+
+## Quick Start 🚀
+
+Visit the live app here: https://mellifluous-ganache-4799b2.netlify.app
+
+## About
 
 This is a book tracking app that allows users to organize their books into three shelves: Currently Reading, Want to Read, and Read. Users can move books between shelves, remove books from their shelves, and search for new books to add to their shelves.
 
-## Usage
-
 ### Main Page
+
 The main page displays three bookshelves: Currently Reading, Want to Read, and Read. To move a book between shelves, click on the dropdown menu on the book cover and select the desired shelf. To remove a book from your shelves, click on the dropdown menu and select "None".
 
 ### Search Page
+
 To search for new books to add to your shelves, click on the search icon in the top right corner of the main page. This will take you to the search page, where you can enter a query in the search bar. As you type, the app will display a list of books that match your query. To add a book to your shelves, click on the dropdown menu on the book cover and select the desired shelf.
 
 If a book is already on one of your shelves, that shelf will be disabled in the dropdown menu to prevent you from adding the same book twice.
@@ -32,4 +38,3 @@ To run the app locally, follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
