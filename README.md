@@ -2,7 +2,7 @@
 
 ## Quick Start 🚀
 
-Visit the live app here: https://mellifluous-ganache-4799b2.netlify.app
+Visit the live app here: https://myreads2.netlify.app/
 
 ## About
 
