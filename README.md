@@ -8,6 +8,8 @@ Visit the live app here: https://myreads2.netlify.app/
 
 This is a book tracking app that allows users to organize their books into three shelves: Currently Reading, Want to Read, and Read. Users can move books between shelves, remove books from their shelves, and search for new books to add to their shelves.
 
+![The screenshot of the application](/MyReads/myreads.jpg)
+
 ### Main Page
 
 The main page displays three bookshelves: Currently Reading, Want to Read, and Read. To move a book between shelves, click on the dropdown menu on the book cover and select the desired shelf. To remove a book from your shelves, click on the dropdown menu and select "None".
