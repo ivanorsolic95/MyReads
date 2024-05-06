@@ -8,7 +8,7 @@ Visit the live app here: https://myreads2.netlify.app/
 
 This is a book tracking app that allows users to organize their books into three shelves: Currently Reading, Want to Read, and Read. Users can move books between shelves, remove books from their shelves, and search for new books to add to their shelves.
 
-![The screenshot of the application](/MyReads/myreads.jpg)
+![The screenshot of the application](myreads.jpg)
 
 ### Main Page
 
